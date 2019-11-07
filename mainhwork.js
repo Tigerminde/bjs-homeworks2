@@ -13,16 +13,7 @@ console.log("Средняя оценка " + rating + " балла");
 let name = 'Тигран';
 let message;
 
-message = ("Привет, мир! Меня зовут " + name );
+message = (`Привет, мир! Меня зовут ${name}.`);
 console.log(message);
 
 
-//задача 3
-
-let x = 2;
-let y = 22;
-let z = 0;
-let result;
-
-result = (x * y) + (5 * z) + (x - 1);
-console.log(`при x = ${x}, y = ${y}, z = ${z}\n` + '(x * y) + (5 * z) + (x - 1) = ' + result);
